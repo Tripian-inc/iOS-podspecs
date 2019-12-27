@@ -16,4 +16,5 @@ s.platform = :ios, "11.0"
 s.vendored_frameworks = "TRPRestKit/TRPRestKit.framework"
 s.requires_arc = true
 s.frameworks = "UIKit"
+s.dependency "TRPFoundationKit", "~> 1.4.0"
 end

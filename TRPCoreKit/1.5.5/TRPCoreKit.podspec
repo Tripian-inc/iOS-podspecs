@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = "11.0"
     s.platform = :ios, "11.0"
     s.vendored_frameworks = "TRPCoreKit/TRPCoreKit.framework"
-    s.requires_arc = true
+    s.swift_version = '5.1'
     s.frameworks = "TRPCoreKit"
     s.dependency 'TRPFoundationKit', '1.4.0'
     s.dependency 'TRPUserProfileKit', '1.4.0'

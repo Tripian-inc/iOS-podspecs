@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
     s.version = "1.8.0"
     s.summary = "Tripian iOS Framework"
     s.homepage = "https://www.tripian.com"
-    s.license =  s.license = { :type => "BSD" }
+    s.license = { :type => "BSD" }
     s.author = { "Tripian" => "necati@tripian.com" }
     s.source       = {
         :http => "https://tripian-mobile-sdk.s3.us-east-2.amazonaws.com/trpcorekit/1.8.0/TRPCoreKit.zip"
